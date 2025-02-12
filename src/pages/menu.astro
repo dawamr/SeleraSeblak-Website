@@ -1,0 +1,12 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navigation from '../components/Navigation';
+import MenuPage from '../components/MenuPage';
+import Footer from '../components/Footer.astro';
+---
+
+<Layout title="Menu - SeleraSeblak">
+  <Navigation client:load />
+  <MenuPage client:load />
+  <Footer />
+</Layout>

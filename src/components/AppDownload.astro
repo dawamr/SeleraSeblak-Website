@@ -1,0 +1,33 @@
+---
+import { Smartphone } from 'lucide-react';
+---
+
+<section id="app" class="py-20 bg-red-50">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex flex-col md:flex-row items-center justify-between">
+      <div class="md:w-1/2 mb-8 md:mb-0">
+        <h2 class="text-4xl font-bold mb-4">Download Aplikasi Kami</h2>
+        <p class="text-lg text-gray-600 mb-8">
+          Nikmati kemudahan pesan antar dan promo eksklusif melalui aplikasi SeleraSeblak
+        </p>
+        <div class="flex space-x-4">
+          <button class="bg-black text-white px-6 py-3 rounded-lg flex items-center space-x-2">
+            <Smartphone className="w-6 h-6" />
+            <span>App Store</span>
+          </button>
+          <button class="bg-black text-white px-6 py-3 rounded-lg flex items-center space-x-2">
+            <Smartphone className="w-6 h-6" />
+            <span>Play Store</span>
+          </button>
+        </div>
+      </div>
+      <div class="md:w-1/2">
+        <img 
+          src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&q=80" 
+          alt="Mobile App" 
+          class="rounded-lg shadow-xl"
+        />
+      </div>
+    </div>
+  </div>
+</section>

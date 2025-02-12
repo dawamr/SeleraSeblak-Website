@@ -1,0 +1,18 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navigation from '../components/Navigation';
+import Hero from '../components/Hero.astro';
+import Menu from '../components/Menu';
+import AppDownload from '../components/AppDownload.astro';
+import Partnership from '../components/Partnership.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<Layout title="SeleraSeblak - Sensasi Pedas yang Menggoda">
+  <Navigation client:load />
+  <Hero />
+  <Menu client:load />
+  <AppDownload />
+  <Partnership />
+  <Footer />
+</Layout>
