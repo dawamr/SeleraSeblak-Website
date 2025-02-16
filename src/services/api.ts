@@ -1,7 +1,7 @@
 import { MenuItem, Topping, SpicyLevel } from '../types/menu';
 import { Store } from '../types/store';
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8080/api';
+const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8080';
 const isDevelopment = import.meta.env.DEV;
 
 // Tambahkan logging untuk debug

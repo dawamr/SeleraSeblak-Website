@@ -13,25 +13,25 @@ interface MenuItem {
 
 const menuItems: MenuItem[] = [
   {
-    photo: 'https://images.unsplash.com/photo-1626804475297-41608ea09aeb?auto=format&fit=crop&q=80',
-    name: 'Seblak Original',
-    price: 'Rp 25.000',
-    description: 'Seblak klasik dengan kerupuk, bakso, mie, dan telur dalam kuah pedas khas',
-    spicyLevel: 3,
-  },
-  {
-    photo: 'https://images.unsplash.com/photo-1585032226651-759b368d7246?auto=format&fit=crop&q=80',
-    name: 'Mie Pedas Gila',
-    price: 'Rp 28.000',
-    description: 'Mie dengan bumbu super pedas, topping ayam, dan sayuran segar',
+    photo: 'https://seleraseblak.com/r-eris-8SRfhNf6z9s-unsplash.jpg',
+    name: 'Seblak Signature',
+    price: 'Rp 12.500*',
+    description: 'Seblak dengan aneka topping, dan bumbu khas dalam kenikmatan kuah pedas nan khas',
     spicyLevel: 5,
   },
   {
-    photo: 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&q=80',
-    name: 'Burger Seblak',
-    price: 'Rp 35.000',
-    description: 'Inovasi burger dengan saus seblak pedas dan kerupuk crispy',
-    spicyLevel: 4,
+    photo: 'https://seleraseblak.com/photo-1585032226651-759b368d7246.jpeg',
+    name: 'Mie Pedas Gila',
+    price: 'Rp 12.500*',
+    description: 'Mie dengan bumbu super pedas, dengan topping ayam, dan sayuran segar',
+    spicyLevel: 5,
+  },
+  {
+    photo: 'https://seleraseblak.com/photo-1568901346375-23c9450c58cd.jpeg',
+    name: 'Burger',
+    price: 'Rp 12.500*',
+    description: 'Inovasi burger dengan daging yang diolah dengan bumbu khas yang nikmat',
+    spicyLevel: 5,
   },
 ];
 
