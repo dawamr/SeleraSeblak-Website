@@ -1,0 +1,6 @@
+[submodule "seleraseblak-gobe"]
+	path = seleraseblak-gobe
+	url = https://github.com/dawamr/seleraseblak-gobe.git
+[submodule "seleraseblak-cms"]
+	path = seleraseblak-cms
+	url = https://github.com/dawamr/seleraseblak-cms.git
