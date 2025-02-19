@@ -96,7 +96,7 @@ function App() {
               <br />
               Setiap Gigitan
             </h1>
-            <p className='text-xl md:text-2xl mb-8'>Rasakan sensasi pedas yang menggoda</p>
+            <p className='text-xl md:text-2xl mb-8'>Rasakan sensasi kenikmatan pada setiap gigitan.</p>
             <button className='bg-red-600 text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-red-700 transition-colors'>
               Lihat Menu
             </button>
