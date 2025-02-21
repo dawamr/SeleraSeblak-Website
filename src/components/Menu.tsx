@@ -13,21 +13,21 @@ interface MenuItem {
 
 const menuItems: MenuItem[] = [
   {
-    photo: 'https://seleraseblak.com/r-eris-8SRfhNf6z9s-unsplash.jpg',
+    photo: 'https://cms.seleraseblak.com/assets/6d79f304-aeb8-4f62-a8ee-54540ccc2ac7?width=500',
     name: 'Seblak Signature',
     price: 'Rp 12.500*',
     description: 'Seblak dengan aneka topping, dan bumbu khas dalam kenikmatan kuah pedas nan khas',
     spicyLevel: 5,
   },
   {
-    photo: 'https://seleraseblak.com/photo-1585032226651-759b368d7246.jpeg',
+    photo: 'https://cms.seleraseblak.com/assets/a61d7309-12e9-47e0-b9cb-495df3f66133?width=500',
     name: 'Mie Pedas Gila',
     price: 'Rp 12.500*',
     description: 'Mie dengan bumbu super pedas, dengan topping ayam, dan sayuran segar',
     spicyLevel: 5,
   },
   {
-    photo: 'https://seleraseblak.com/photo-1568901346375-23c9450c58cd.jpeg',
+    photo: 'https://cms.seleraseblak.com/assets/c345eb6f-b1cb-42cd-84ee-1dd9ed9fd67d?width=500',
     name: 'Burger',
     price: 'Rp 12.500*',
     description: 'Inovasi burger dengan daging yang diolah dengan bumbu khas yang nikmat',
